@@ -16,13 +16,18 @@ Diamond is carbon — now it behaves like it.
 
 ### Install
 
-1. Open Sandboxels → **Settings → Mod Manager** (puzzle-piece icon)
-2. Paste this URL and press **+**:
+1. Open Sandboxels → **Mods**
+2. Paste this URL and add it:
 
 ```
-https://raw.githubusercontent.com/theonewithpooh-bear/sandboxels-mods/main/diamond_plus.js
+https://theonewithpooh-bear.github.io/sandboxels-mods/diamond_plus.js
 ```
 
 3. Reload the page.
 
-Verified headless against Sandboxels 1.13.2 (14/14 behavioural checks: melt, recrystallise, char, quench-reforge, both tools).
+> **Note:** do NOT use a `raw.githubusercontent.com` URL — GitHub serves those as
+> `text/plain` with `nosniff`, so the browser refuses to execute them as a mod script.
+> This repo serves mods via GitHub Pages with the correct MIME type.
+> Mirror: `https://cdn.jsdelivr.net/gh/theonewithpooh-bear/sandboxels-mods@main/diamond_plus.js`
+
+Verified headless against the **live Sandboxels v1.14** (all behavioural checks passing: melt, recrystallise, char, quench-reforge, both tools, buttons present in the element picker).
