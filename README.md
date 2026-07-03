@@ -2,6 +2,42 @@
 
 Custom mods for [Sandboxels](https://sandboxels.r74n.com/).
 
+## singularity.js — **The Singularity** (cosmic sandbox pack)
+
+Adds a whole new **Cosmic** category that turns the sandbox into a universe.
+Every element here acts on *all* the others — that's the point.
+
+| Element | What it does |
+|---|---|
+| **Black Hole** | Real cellular **gravity** — drags in surrounding matter, devours anything at its event horizon, and **grows** as it feeds. Merges with other black holes, leaks Hawking radiation, and **evaporates** in a burst when starved. |
+| **Antimatter** | Touches any normal matter → both **annihilate** in a gamma flash of plasma + radiation. Chain-reacts spectacularly. |
+| **Nanite** (grey goo) | **Self-replicates** into adjacent matter. Replication makes heat, so a runaway swarm cooks itself — melt it, annihilate it, or feed it to a black hole to stop it. |
+| **Star** | A fusion core: radiates heat + light and **fuses nearby hydrogen into helium**, banking fuel. Overfeed it and it goes **supernova** → neutronium or a brand-new black hole. |
+| **Neutronium** | Ultra-dense supernova remnant. Sinks through everything, immune to explosions. Only a black hole or antimatter can unmake it. |
+
+| Tool (Cosmic) | What it does |
+|---|---|
+| **Big Bang** | A creation event — a violent, expanding burst of primordial hydrogen, helium and plasma. Shift-click = bigger bang. |
+| **Gravity Well** | Pulls matter toward the cursor **without** destroying it — gather hydrogen to feed a star. Shift-click = wider reach. |
+| **Supernova** | Detonate a stellar death on demand. Shift-click always collapses the core into a black hole. |
+
+**Try this:** paint a blob of **hydrogen**, drop a **Star** in it and watch it fuse and grow → overfeed it → **supernova → black hole** → feed the black hole and watch it eat the screen → leave it alone and watch it **evaporate**. Then throw **antimatter** at the leftovers.
+
+### Install
+
+1. Open Sandboxels → **Mods**
+2. Paste this URL and add it:
+
+```
+https://theonewithpooh-bear.github.io/sandboxels-mods/singularity.js
+```
+
+3. Reload the page. A new **Cosmic** category appears in the element picker.
+
+> Mirror: `https://cdn.jsdelivr.net/gh/theonewithpooh-bear/sandboxels-mods@main/singularity.js`
+
+Verified headless against the real engine (10/10 behavioural checks: gravity, devour+grow, Hawking evaporation, annihilation, goo replication, H→He fusion, supernova remnant, and all three tools).
+
 ## diamond_plus.js
 
 Diamond is carbon — now it behaves like it.
